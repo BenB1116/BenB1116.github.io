@@ -69,17 +69,21 @@ ul.horz_list {
   padding-top: 10%;
   background-color: transparent;
   text-align: center;
+  position: static
 }
 
 ul.horz_list li {
   display: inline-block;
   float: none;
   padding-inline: 5%;
+  position: static;
 }
 
 .table {
   display: table;
   float: left;
+  position: static;
+  width: 100%;
 }
 
 .logo_img {
