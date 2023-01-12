@@ -96,23 +96,34 @@ li a.contact_hover:hover {
 }
 
 /* Project Page Dividers */
-.float-container {
-  border: 3px solid #fff;
-  padding: 0px;
+.float-container{
+  padding: 1px;
+  text-align: center;
+  margin: 1px;
+  border: 2px solid red;
+  overflow: auto;
+}
+
+.float-container:nth-child(even) {
+  background-color: #e0e0e0;
+  border: 2px solid blue;
 }
 
 .image_box {
   width: 20%;
   float: left;
   padding: 20px;
-  margin: 0px;
+  margin: 1px;
   border: 2px solid red;
-}  
+  background-color: inherit;
+}
 
 .text_box {
-  width: 70.5%;
+  text-align: left;
+  width: 70%;
   float: left;
   padding: 20px;
-  margin: 0px;
+  margin: 1px;
   border: 2px solid red;
-}  
+  background-color: inherit;
+}
