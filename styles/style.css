@@ -112,7 +112,6 @@ li a.contact_hover:hover {
   float: left;
   padding: 20px;
   margin: 1px;
-  border: 2px solid red;
   background-color: inherit;
 }
 
@@ -122,11 +121,10 @@ li a.contact_hover:hover {
   float: left;
   padding: 20px;
   margin: 1px;
-  border: 2px solid red;
   background-color: inherit;
 }
 
-.text_box p{
+.text_box p {
   font-size: 20px;
 }
 
@@ -134,8 +132,22 @@ li a.contact_hover:hover {
   width: 140px;
 }
 
-/* Hidden Text */
-#moreText {
-  /* Display nothing for the element */
+/* Hidden Contents */
+.more-img {
   display: none;
+}
+
+.read-btn {
+  background-color: #00b295ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+}
+
+.read-btn:hover {
+  background-color: #028D76ff;
 }
