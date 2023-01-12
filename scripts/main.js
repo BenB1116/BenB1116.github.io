@@ -1,7 +1,7 @@
 function readMore(project) {
-    let dots = document.querySelector(`.text_box[project-name="${project}"] .dots`);
-    let moreText = document.querySelector(`.text_box[project-name="${project}"] .more`); 
-    let btnText = document.querySelector(`.text_box[project-name="${project}"] .myBtn`);
+    let dots = document.querySelector(`.project-container[project-name="${project}"] .dots`);
+    let moreText = document.querySelector(`.project-container[project-name="${project}"] .more`); 
+    let btnText = document.querySelector(`.project-container[project-name="${project}"] .myBtn`);
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
