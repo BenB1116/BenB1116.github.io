@@ -41,20 +41,20 @@ li a:hover:not(.active) {
   background-color: #00b295ff;
 }
 
-#title_text {
+#title-text {
   color: white;
   margin: 0;
   margin-top: 13px;
 }
 
 /* Main Body */
-#main_body {
+#main-body {
   padding: 0px;
   margin: 0px;
 }
 
 /* Page Title */
-#center_title {
+#center-title {
   width: 100%;
   margin-top: 49px;
   background-color: #00b295ff;
@@ -65,7 +65,7 @@ li a:hover:not(.active) {
 }
 
 /* Centered Horizontal Lists */
-ul.horz_list {
+ul.horz-list {
   list-style: none;
   padding-top: 10%;
   background-color: transparent;
@@ -73,7 +73,7 @@ ul.horz_list {
   position: static
 }
 
-ul.horz_list li {
+ul.horz-list li {
   display: inline-block;
   float: none;
   padding-inline: 5%;
@@ -87,11 +87,11 @@ ul.horz_list li {
   width: 100%;
 }
 
-.logo_img {
+.logo-img {
   height: 100px;
 }
 
-li a.contact_hover:hover {
+li a.contact-hover:hover {
   background-color: #f6f6f6;
 }
 
@@ -107,7 +107,7 @@ li a.contact_hover:hover {
   background-color: #e0e0e0;
 }
 
-.image_box {
+.image-box {
   width: 15%;
   float: left;
   padding: 20px;
@@ -115,7 +115,7 @@ li a.contact_hover:hover {
   background-color: inherit;
 }
 
-.text_box {
+.text-box {
   text-align: left;
   width: 75%;
   float: left;
@@ -124,11 +124,11 @@ li a.contact_hover:hover {
   background-color: inherit;
 }
 
-.text_box p {
+.text-box p {
   font-size: 20px;
 }
 
-.image_box img {
+.image-box img {
   width: 140px;
 }
 
