@@ -5,11 +5,11 @@ function readMore(project) {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.textContent = "Read more";
+        btnText.textContent = "Read More";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.textContent = "Read less"; 
+        btnText.textContent = "Read Less"; 
         moreText.style.display = "inline";
     }
 }
