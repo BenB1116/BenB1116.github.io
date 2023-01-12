@@ -94,3 +94,25 @@ ul.horz_list li {
 li a.contact_hover:hover {
   background-color: #f6f6f6;
 }
+
+/* Project Page Dividers */
+.float-container {
+  border: 3px solid #fff;
+  padding: 0px;
+}
+
+.image_box {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  margin: 0px;
+  border: 2px solid red;
+}  
+
+.text_box {
+  width: 70.5%;
+  float: left;
+  padding: 20px;
+  margin: 0px;
+  border: 2px solid red;
+}  
