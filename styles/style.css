@@ -155,12 +155,23 @@ li a.contact-hover:hover {
 
 
 /* Project Info Lists */
-.info-list{
+.info-list {
   all: initial;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
   list-style-type: none;
 }
 
-.info-list li{
-  background-color: transparent;
+.info-list li {
+  background-color: inherit;
+}
+
+.info-list a {
+  all: unset;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+  background-color: inherit;
+}
+
+.info-list li a:hover{
+  text-decoration: underline;
+  background-color: inherit;
 }
