@@ -129,7 +129,12 @@ li a.contact-hover:hover {
 }
 
 .image-box img {
-  width: 140px;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.image-box video{
+  width: 80%;
   margin-top: 50px;
 }
 
